@@ -1,0 +1,23 @@
+{
+  "name": "rpolygon",
+  "version": "0.1.0",
+  "description": "Draws a random pattern of random polygons to a canvas.",
+  "main": "rpolygon.js",
+  "dependencies": {
+    "paper": "^0.10.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nick11roberts/rpolygon.git"
+  },
+  "author": "Nicholas Roberts <n3robert@ucsd.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nick11roberts/rpolygon/issues"
+  },
+  "homepage": "https://github.com/nick11roberts/rpolygon#readme"
+}
