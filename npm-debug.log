@@ -41,7 +41,7 @@
 20 silly publish   homepage: 'https://github.com/nick11roberts/rpolygon#readme',
 20 silly publish   readme: '# rpolygon\nDraws a random pattern of random polygons to a canvas.\n',
 20 silly publish   readmeFilename: 'README.md',
-20 silly publish   gitHead: 'eeca61d05396169d6eccef70a3d2d3dd01437dc6',
+20 silly publish   gitHead: '07e1bff7fcb7d19f40f6458a0c0c66bb6812e030',
 20 silly publish   _id: 'rpolygon@0.1.0',
 20 silly publish   _shasum: '75878534e2844aabc857e4e7da04f7249fd45cd0',
 20 silly publish   _from: '.' }
@@ -61,22 +61,22 @@
 28 silly publish uploading /Users/nick/.npm/rpolygon/0.1.0/package.tgz
 29 verbose request uri https://registry.npmjs.org/rpolygon
 30 verbose request sending authorization for write operation
-31 info attempt registry request try #1 at 3:18:30 AM
+31 info attempt registry request try #1 at 3:19:47 AM
 32 verbose request using bearer token for auth
-33 verbose request id be63bb02bf0bcede
+33 verbose request id 14aec8c95dd941d5
 34 http request PUT https://registry.npmjs.org/rpolygon
 35 http 403 https://registry.npmjs.org/rpolygon
 36 verbose headers { 'content-type': 'application/json',
 36 verbose headers   'cache-control': 'max-age=300',
 36 verbose headers   'content-length': '128',
 36 verbose headers   'accept-ranges': 'bytes',
-36 verbose headers   date: 'Fri, 05 Aug 2016 10:18:30 GMT',
+36 verbose headers   date: 'Fri, 05 Aug 2016 10:19:47 GMT',
 36 verbose headers   via: '1.1 varnish',
 36 verbose headers   connection: 'keep-alive',
-36 verbose headers   'x-served-by': 'cache-sjc3623-SJC',
+36 verbose headers   'x-served-by': 'cache-sjc3640-SJC',
 36 verbose headers   'x-cache': 'MISS',
 36 verbose headers   'x-cache-hits': '0',
-36 verbose headers   'x-timer': 'S1470392310.326490,VS0,VE119',
+36 verbose headers   'x-timer': 'S1470392387.782779,VS0,VE139',
 36 verbose headers   vary: 'Accept-Encoding' }
 37 verbose request invalidating /Users/nick/.npm/registry.npmjs.org/rpolygon on PUT
 38 error publish Failed PUT 403
