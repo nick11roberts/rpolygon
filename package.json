@@ -1,11 +1,9 @@
 {
   "name": "rpolygon",
-  "version": "0.4.1",
+  "version": "0.4.3",
   "description": "Draws a random pattern of random polygons to a canvas.",
   "main": "rpolygon.js",
-  "dependencies": {
-    "paper": "^0.10.2"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -1,8 +1,12 @@
 var fillCanvas = function(canvas, color) {
 
-	var NUM_ROW_POLYGONS = 20;
-   var NUM_COLUMN_POLYGONS = 20;
-   var NUM_VERTICES = 3;
+	function getRandomInt(min, max) {
+		return Math.floor(Math.random() * (max - min + 1)) + min;
+	}
+
+	var NUM_ROW_POLYGONS = getRandomInt(20, 40);
+   var NUM_COLUMN_POLYGONS = getRandomInt(20, 40);
+   var NUM_VERTICES = getRandomInt(2, 5);
 
    // Create an empty project and a view for the canvas:
 	paper.setup(canvas);
@@ -26,7 +30,7 @@ var fillCanvas = function(canvas, color) {
          for( k = 0; k < NUM_VERTICES; k++ ){
          	paths[k] = new paper.Path.Line(rand[k],
          							 rand[(k + 1) % NUM_VERTICES]);
-         	paths[k].strokeColor = '#adeba8';
+         	paths[k].strokeColor = color;
          }
       }
    }
