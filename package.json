@@ -1,6 +1,6 @@
 {
   "name": "rpolygon",
-  "version": "0.1.0",
+  "version": "0.4.1",
   "description": "Draws a random pattern of random polygons to a canvas.",
   "main": "rpolygon.js",
   "dependencies": {
