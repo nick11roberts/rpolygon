@@ -1,6 +1,9 @@
 # rpolygon
 Draws a random pattern of random polygons to a canvas.
 
+## Installation
+`npm install rpolygon`
+
 ## Usage
 Add this, or some variation, to your head tag and modify it for your use case: 
 ```
